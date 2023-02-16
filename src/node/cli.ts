@@ -1,7 +1,6 @@
-#!/usr/bin/env node
 import { program } from "commander";
 import inquirer from "inquirer";
-import ora from "ora"
+import ora from "ora";
 // 打印参数
 console.log(process.argv);
 
@@ -28,4 +27,5 @@ inquirer
   .then((answer) => {
     console.log(answer);
   });
+console.log("aaaa");
 program.version("1.0.0").parse(process.argv);

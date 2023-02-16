@@ -15,5 +15,5 @@ program.command('split')
     const limit = options.first ? 1 : undefined;
     console.log(str.split(options.separator, limit));
   });
-
+console.log(11)
 program.parse();
